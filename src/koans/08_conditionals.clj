@@ -31,6 +31,7 @@
   (let [x 5]
     (= :your-road (cond (= x 1) :road-not-taken
                         (= x 2) :another-road-not-taken
+                        (= x 3) :yes-a-third-road
                         :else :your-road)))
 
   "Or your fate may be sealed"
